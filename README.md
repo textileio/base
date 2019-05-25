@@ -1,6 +1,13 @@
 # base
 Base files we use to configure our repositories
 
+``` bash
+http -d https://raw.githubusercontent.com/textileio/base/master/.editorconfig
+http -d https://raw.githubusercontent.com/textileio/base/master/.gitignore
+http -d https://raw.githubusercontent.com/textileio/base/master/.prettierignore
+open https://raw.githubusercontent.com/textileio/base/master/.package.json
+```
+
 ---
 
 Refer to these discussion threads:
