@@ -55,22 +55,21 @@ docs/
 __pycache__
 
 # Compiled Object files, Static and Dynamic libs (Shared Objects)
-*.o
-*.a
-*.so
-*.pyc
-*.dylib
-*.dll
-*.exe
-*.syso
-*.test
-*.prof
+**/*.o
+**/*.a
+**/*.so
+**/*.pyc
+**/*.dylib
+**/*.dll
+**/*.exe
+**/*.syso
+**/*.test
+**/*.prof
 .ipfs
 .textile*
 
 # Architecture specific extensions/prefixes
-*.[568vq]
-[568vq].out
+**/*.[568vq]
 
 # Local Development Files
 .ackrc
@@ -78,12 +77,12 @@ __pycache__
 *.sw?
 
 # Mobile
-*.aar
-*.jar
-*.framework
+**/*.aar
+**/*.jar
+**/*.framework
 
 # Keys
-*.pem
+**/*.pem
 
 # Swarm
 docker-compose.swarm.yml
