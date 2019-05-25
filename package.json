@@ -12,6 +12,7 @@
     "for-js-projects:eslint": "eslint --fix --ext .mjs,.js,.jsx,.ts,.tsx .",
   },
   "prettier": {
-    "semi": false
+    "semi": false,
+    "singleQuote": true
   }
 }
