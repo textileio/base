@@ -5,6 +5,7 @@ Base files we use to configure our repositories
 
 ``` shell
 http -d https://raw.githubusercontent.com/textileio/base/master/.editorconfig
+http -d https://raw.githubusercontent.com/textileio/base/master/.eslintignore
 http -d https://raw.githubusercontent.com/textileio/base/master/.gitignore
 http -d https://raw.githubusercontent.com/textileio/base/master/.prettierignore
 open https://github.com/textileio/base/blob/master/package.json
