@@ -1,7 +1,7 @@
 # base
 Base files we use to configure our repositories
 
-# Install
+## Install
 
 ``` shell
 http -d https://raw.githubusercontent.com/textileio/base/master/.editorconfig
@@ -10,7 +10,7 @@ http -d https://raw.githubusercontent.com/textileio/base/master/.prettierignore
 open https://github.com/textileio/base/blob/master/package.json
 ```
 
-# About
+## About
 
 Refer to these discussion threads:
 
