@@ -29,6 +29,6 @@ insert_final_newline = true
 
 # Preferences
 # Textile uses 2 space indentation for JavaScript/TypeScript
-[{*.js,*.jsx,*.ts,*.tsx}]
+[{*.js,*.jsx,*.ts,*.tsx,*.mjs}]
 indent_style = space
 indent_size = 2
