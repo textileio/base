@@ -1,4 +1,6 @@
-**/*.json
+# 2019 May 25
+# https://github.com/textileio/base
+
 android/**
 ios/**
 coverage/**
