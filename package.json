@@ -9,7 +9,7 @@
   "scripts": {
     "for-go-projects:format": "prettier --write \"./**\" 2> /dev/null || true",
     "for-go-projects:check": "prettier --check \"./**\" 2> /dev/null || true",
-    "for-js-projects:eslint": "eslint --fix --ignore-pattern '**/*.d.ts' --ignore-pattern '**/vendor/' --ignore-pattern '**/node_modules/' --ext .mjs,.js,.jsx,.ts,.tsx ./source",
+    "for-js-projects:eslint": "eslint --fix --ext .mjs,.js,.jsx,.ts,.tsx .",
   },
   "prettier": {
     "semi": false
