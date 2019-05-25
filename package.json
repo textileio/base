@@ -11,6 +11,11 @@
     "for-go-projects:check": "prettier --check \"./**\" 2> /dev/null || true",
     "for-js-projects:eslint": "eslint --fix --ext .mjs,.js,.jsx,.ts,.tsx .",
   },
+  "eslintConfig": {
+    "extends": [
+      "bevry"
+    ]
+  },
   "prettier": {
     "semi": false,
     "singleQuote": true
