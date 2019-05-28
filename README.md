@@ -13,6 +13,8 @@ http -d https://raw.githubusercontent.com/textileio/base/master/.gitignore
 # for projects that have javascript/typescript/html
 http -d https://raw.githubusercontent.com/textileio/base/master/.eslintignore
 http -d https://raw.githubusercontent.com/textileio/base/master/.prettierignore
+
+#  open the package.json and copy the relevant parts
 open https://github.com/textileio/base/blob/master/package.json
 ```
 
