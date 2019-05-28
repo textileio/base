@@ -3,10 +3,15 @@ Base files we use to configure our repositories
 
 ## Install
 
+Use [HTTPie](https://httpie.org/) via the Terminal to download the base files:
+
 ``` shell
+# for all projects
 http -d https://raw.githubusercontent.com/textileio/base/master/.editorconfig
-http -d https://raw.githubusercontent.com/textileio/base/master/.eslintignore
 http -d https://raw.githubusercontent.com/textileio/base/master/.gitignore
+
+# for projects that have javascript/typescript/html
+http -d https://raw.githubusercontent.com/textileio/base/master/.eslintignore
 http -d https://raw.githubusercontent.com/textileio/base/master/.prettierignore
 open https://github.com/textileio/base/blob/master/package.json
 ```
