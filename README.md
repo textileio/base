@@ -24,6 +24,10 @@ Customise your eslint configuration with the following from @balupton's [configu
 
 ``` json
 {
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.renderControlCharacters": true,
+	"editor.renderIndentGuides": true,
 	"eslint.alwaysShowStatus": true,
 	"eslint.autoFixOnSave": true,
 	"eslint.enable": true,
@@ -33,6 +37,7 @@ Customise your eslint configuration with the following from @balupton's [configu
 	"json.format.enable": true,
 	"prettier.semi": false,
 	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
 	"typescript.format.enable": true,
 	"typescript.suggest.completeFunctionCalls": true,
 	"typescript.tsdk": "./node_modules/typescript/lib",
