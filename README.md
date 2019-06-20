@@ -118,7 +118,7 @@ npm i -D eslint-plugin-react eslint-plugin-react-hooks @types/react
 
 Add the eslint/prettier script to say `package.json:scripts` as `build` or `lint` or whatever.
 
-```
+``` bash
 eslint --fix --ext .mjs,.js,.jsx,.ts,.tsx .
 ```
 
