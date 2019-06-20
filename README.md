@@ -70,21 +70,21 @@ Customise your eslint configuration with the following from @balupton's [configu
     - https://plugins.jetbrains.com/plugin/10456-prettier
     - https://www.jetbrains.com/help/go/configuring-code-style.html#editorconfig
 
-### Download the base files
+### Download
 
-Use [HTTPie](https://httpie.org/) via the Terminal to download the base files:
+Use [HTTPie](https://httpie.org/) via the Terminal to download the appropraite base files:
 
 ``` shell
 # for all projects
 http -d https://raw.githubusercontent.com/textileio/base/master/.editorconfig
 http -d https://raw.githubusercontent.com/textileio/base/master/.gitignore
 
-# for projects that have javascript/typescript/html
+# for web projects (projects that are mostly html/javascript/typescript)
 http -d https://raw.githubusercontent.com/textileio/base/master/.eslintignore
 http -d https://raw.githubusercontent.com/textileio/base/master/.prettierignore
 ```
 
-### Setup prettier
+### Setup
 
 #### On Go/Java Projects
 
