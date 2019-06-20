@@ -91,6 +91,8 @@ http -d https://raw.githubusercontent.com/textileio/base/master/.prettierignore
 
 ### Setup
 
+If convenient, make sure all PRs are merged beforehand to avoid merge conflicts.
+
 #### On Go/Java Projects
 
 On go projects we want to run prettier on everything, but ignore the errors.
