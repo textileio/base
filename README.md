@@ -25,6 +25,7 @@ Customise your eslint configuration with the following from @balupton's [configu
 ``` json
 {
 	"editor.detectIndentation": false,
+	"editor.formatOnSave": true,
 	"editor.insertSpaces": false,
 	"editor.renderControlCharacters": true,
 	"editor.renderIndentGuides": true,
@@ -53,7 +54,6 @@ Customise your eslint configuration with the following from @balupton's [configu
 		"MD032": false,
 		"MD034": false
 	},
-	"editor.formatOnSave": true,
 	"eslint.validate": [
 		"javascript",
 		"javascriptreact",
